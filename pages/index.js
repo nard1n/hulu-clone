@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-// import Navigation from '../components/Navigation'
+import Navigation from '../components/Navigation'
 // import Results from '../components/Results'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       {/* Navigation */}
-      {/* <Navigation /> */}
+      <Navigation />
 
       {/* Results/Main */}
       {/* <Results /> */}
