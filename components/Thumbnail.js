@@ -5,7 +5,7 @@ function Thumbnail({ result }) {
     const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
     return (
-        <div className='group cursor-pointer'>
+        <div className='p-2 group cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50'>
             <Image 
                 layout='responsive'
                 src={
